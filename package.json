@@ -6,11 +6,14 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "author": "Sohel Amin <sohelamincse@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "express": "^4.16.1"
+  },
+  "devDependencies": {
+    "mocha": "^6.2.2"
   }
 }
