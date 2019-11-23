@@ -29,4 +29,4 @@ jobs:
 
       - deploy:
           name: Ubuntu server
-          command: ssh root@appzcoder.com "cd ~/apps/nodejs-circle-ci; git pull; npm install; pm2 restart 2"
+          command: ssh -o "StrictHostKeyChecking no" root@appzcoder.com "cd ~/apps/nodejs-circle-ci; git pull; npm install; pm2 restart 2"
