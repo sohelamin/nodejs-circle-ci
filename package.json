@@ -1,0 +1,16 @@
+{
+  "name": "nodejs-circle-ci",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Circle CI example app for nodejs",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sohel Amin <sohelamincse@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.1"
+  }
+}
